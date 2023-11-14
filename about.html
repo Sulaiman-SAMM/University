@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="imags/icon.png">
+</head>
+<body>
+    <section class="sub-header">
+        	<nav>
+                <a href="index.html"> <img src="imags/logo.png" alt="Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="conrse.html">CONRSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+    </section>
+    <!-- ----- About Us Contact ----- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Officiis pariatur ullam nisi laudantium, tempora 
+                    consectetur iusto. Inventore, dolores doloremque. 
+                    Quibusdam voluptatibus animi libero atque expedita, 
+                    laudantium at consequatur soluta exercitationem.
+                    consectetur iusto. Inventore, dolores doloremque. 
+                    Quibusdam voluptatibus animi libero atque expedita, 
+                    laudantium at consequatur soluta exercitationem.
+                    consectetur iusto. Inventore, dolores doloremque. 
+                    Quibusdam voluptatibus animi libero atque expedita, 
+                    laudantium at consequatur soluta exercitationem.</p>
+                    <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="imags/about.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Minima, distinctio corporis! Quos temporibus inventore, 
+        ut quaerat ipsum <br>enim quae reiciendis similique autem 
+        nobis fugit nihil dolorum qui nulla 
+        perspiciatis atque?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with Samm</p>
+</section>
+
+<!-- ------JavaSCript for Toggle Menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+
+
+

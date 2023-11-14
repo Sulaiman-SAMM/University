@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="imags/icon.png">
+</head>
+<body>
+    <section class="sub-header">
+        	<nav>
+                <a href="index.html"> <img src="imags/logo.png" alt="Logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="conrse.html">CONRSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Porgrams For 2024</h1>
+    </section>
+    <!-- ----- blog page center ----- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="imags/certificate.jpg" alt="">
+                <h2>Our Certificate & Online Porgrams For 2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?</p>
+                    <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?</p>
+                    <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Perferendis cumque eaque id sequi, consequuntur sint 
+                    corporis fugiat minima minus quis iste cupiditate, ut 
+                    sit assumenda. Quod quaerat ipsa corrupti assumenda?</p>
+
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form" action="">
+                            <input type="text" placeholder="Your Name">
+                            <input type="email" placeholder="Your E-Mail">
+                            <textarea rows="5" placeholder="Your Comment" ></textarea>
+                            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                        </form>
+                    </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- ----- Facilities ----- -->
+    
+    <!-- ----- Testimonials ----- -->
+    
+    <!-- ----- Call To Action ----- -->
+
+    <!-- ----- Footer ----- -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Minima, distinctio corporis! Quos temporibus inventore, 
+        ut quaerat ipsum <br>enim quae reiciendis similique autem 
+        nobis fugit nihil dolorum qui nulla 
+        perspiciatis atque?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with Samm</p>
+</section>
+
+<!-- ------JavaSCript for Toggle Menu------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+
+
+
